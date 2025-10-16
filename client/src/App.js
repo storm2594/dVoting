@@ -12,7 +12,7 @@ import Verification from "./component/Admin/Verification/Verification";
 import test from "./component/test";
 // import StartEnd from "./component/Admin/StartEnd/StartEnd";
 
-import Footer from "./component/Footer/Footer";
+import Footer from "./component/Footer/Footer.js"
 
 import "./App.css";
 
