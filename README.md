@@ -22,16 +22,16 @@ A brief explanation on the basic workflow of the application.
 
 ### Requirements
 
-- [Node.js](https://nodejs.org)
-- [Truffle](https://www.trufflesuite.com/truffle)
-- [Ganache](https://github.com/trufflesuite/ganache-cli) (Cli)
-- [Metamask](https://metamask.io/) (Browser Extension)
+- [Node.js]
+- [Truffle]
+- [Ganache] (Cli)
+- [Metamask]
 
 #### Getting the requirements
 
 1. Download and install **NodeJS**
 
-   Download and install NodeJS from [here](https://nodejs.org/en/download/ "Go to official NodeJS download page.").
+   Download and install NodeJS 
 
 1. Install **truffle** and **ganache-cli** using node packager manager (npm)
 
@@ -42,7 +42,7 @@ A brief explanation on the basic workflow of the application.
 
 1. Install **metamask** browser extension
 
-   Download and install metamask from [here](https://metamask.io/download "Go to official metamask download page.").
+   Download and install metamask
 
 ### Configuring the project for development
 
@@ -86,24 +86,3 @@ A brief explanation on the basic workflow of the application.
    npm start
    ```
 
-   > If you encounter **error** during `npm install`, please note that you might need to install Microsoft Visual C++ Redistributable packages from [learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) (here is the direct download link for X64: [aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe))
-
-## To-Do List
-
-Possible features to add/improve within the app.
-
-- [ ] **Email Verification**—adding email/phone verification (OTP, etc..) while registering for voters.
-- [ ] **Automated Verification**—adding an automated verification (rather than manually approving by the admin) for the registered users. This could be based on the custom cooperation email, custom list of emails, or custom list of phone numbers, etc.
-- [ ] **Report**—option to generate a report at the end of an election. The report could contain a range of information including the number of people that were eligible to vote, the number of people that participated in the election, a bar-chart/pie-chart showing the election statistics, etc.
-- [ ] **Workflow improvements**—overall workflow improvements (eg. option to add candidates within the election setup page), with overall GUI improvements.
-- [ ] **Multiple election instance**—ability to create multiple election instances without having to re-deploy the smart contract.
-
-## Join us on Discord
-
-[![Join our Discord server!](https://invidget.switchblade.xyz/3jmfdNsHWr)](https://discord.gg/3jmfdNsHWr)
-
-[discord.gg/3jmfdNsHWr](https://discord.gg/3jmfdNsHWr "Join us on Discord!")
-
----
-
-Made with ❤️ by [Bibek Aryal](https://bibeka.com.np/).
